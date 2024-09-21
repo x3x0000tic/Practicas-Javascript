@@ -1,0 +1,39 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo del DNI</title>
+    <link rel="stylesheet" href="Estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="Practica1.js"></script>
+</head>
+<body>
+    <div class="skibidi">
+        <main class="dnicalculator">
+            <div class="dnpr">
+                <form class="dnifr">
+                    <!-- Contenedor independiente para el label de bienvenida -->
+                    <div class="bienvenida">
+                        <label for="bienvenida">
+                            Bienvenido a la calculadora de DNI
+                        </label>  
+                    </div>
+                    <label for="dni">
+                        Escriba los números del DNI
+                    </label>    
+                    <input type="number" name="dni" id="dni"  class="dnientr" required>  
+                    
+                    <label for="letra">
+                        Escriba la letra del DNI
+                    </label>
+                    <input type="text" name="letra" id="letra"  class="dnientr"  required>
+                    
+                    <input type="submit" name="Calcular" class="dniout">  
+                </form>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
